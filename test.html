@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="D:\Frontend\2023\WebLab1 — копия\WebLab2\css\style.css">
+
+</head>
+
+<body>
+  <form id="quizForm">
+    <h1>Find the synonym of the underlined word.</h1>
+    <h2>Answer the following questions:</h2>
+    
+    <p>1. I hope you are not going to <u class="underlined">abandon</u> your project.</p>
+    <label><input type="radio" name="question1" value="give up completely">give up completely</label><br>
+    <label><input type="radio" name="question1" value="change">change</label><br>
+    <label><input type="radio" name="question1" value="modify slightly">modify slightly</label><br>
+    <label><input type="radio" name="question1" value="postpone">postpone</label><br>
+    <label><input type="radio" name="question1" value="complete">complete</label><br>
+    <button type="button" onclick="checkAnswers()">Check Answer</button>
+
+<p>2. The <u class="underlined">abandoned</u> boat was found miles away from the shore; they never found out who had been on it.</p>
+  <label><input type="radio" name="question2" value="cherished">cherished</label><br>
+  <label><input type="radio" name="question2" value="deserted">deserted</label><br>
+  <label><input type="radio" name="question2" value="austere">austere</label><br>
+  <label><input type="radio" name="question2" value="unabashed">unabashed</label><br>
+  <label><input type="radio" name="question2" value="shabby">shabby</label><br>
+  <button type="button" onclick="checkAnswers()">Check Answer</button>
+
+
+  <p>3. The pilot <u class="underlined">changed</u> direction abruptly, causing great panic in the plane.</p>
+  <label><input type="radio" name="question3" value="anticipated">anticipated</label><br>
+  <label><input type="radio" name="question3" value="foreseen">foreseen</label><br>
+  <label><input type="radio" name="question3" value="unexpectedly">unexpectedly</label><br>
+  <label><input type="radio" name="question3" value="intended">intended</label><br>
+  <label><input type="radio" name="question3" value="reasonably">reasonably</label><br>    
+  <button type="button" onclick="checkAnswers()">Check Answer</button>
+
+
+  <p>4. Larry was so <u class="underlined">absorbed </u>in his novel that he forgot about his dinner cooking in the oven.</p>
+  <label><input type="radio" name="question4" value="engrossed">engrossed</label><br>
+  <label><input type="radio" name="question4" value="obliged">obliged</label><br>
+  <label><input type="radio" name="question4" value="enlivened">enlivened</label><br>
+  <label><input type="radio" name="question4" value="excelled">excelled</label><br>
+  <label><input type="radio" name="question4" value="devastated">devastated</label><br>
+  <button type="button" onclick="checkAnswers()">Check Answer</button>
+  
+  <p>5. The only cure for alcoholism is complete <u class="underlined">abstinence </u> from alcohol.</p>
+  <label><input type="radio" name="question5" value="absence">absence</label><br>
+  <label><input type="radio" name="question5" value="avoidance">avoidance</label><br>
+  <label><input type="radio" name="question5" value="sickness">sickness</label><br>
+  <label><input type="radio" name="question5" value="prescription">prescription</label><br>
+  <label><input type="radio" name="question5" value="pretension">pretension</label><br>
+  <button type="button" onclick="checkAnswers()">Check Answer</button>
+
+ <p>6. Panthotenic acid is <u class="underlined"> abundant </u> in eggs, peas and potatoes.</p>
+  <label><input type="radio" name="question6" value="plentiful">plentiful</label><br>
+  <label><input type="radio" name="question6" value="scarce">scarce</label><br>
+  <label><input type="radio" name="question6" value="inadequate">inadequate</label><br>
+  <label><input type="radio" name="question6" value="insufficient">insufficient</label><br>
+  <label><input type="radio" name="question6" value="analogous">analogous</label><br>
+  <button type="button" onclick="checkAnswers()">Check Answer</button>
+
+ <p>7. Adrenalin has the effect of strengthening and <u class="underlined">accelerating </u> the heartbeat.</p>
+  <label><input type="radio" name="question7" value="diminishing">diminishing</label><br>
+  <label><input type="radio" name="question7" value="adopting">adopting</label><br>
+  <label><input type="radio" name="question7" value="quickening">quickening</label><br>
+  <label><input type="radio" name="question7" value="abolishing">abolishing</label><br>
+  <label><input type="radio" name="question7" value="adopting">adopting</label><br>
+  <button type="button" onclick="checkAnswers()">Check Answer</button>
+
+   <p>8. There was no <u class="underlined">access </u> to the large garden of the house except a well- hidden gate.</p>
+  <label><input type="radio" name="question8" value="entrance">entrance</label><br>
+  <label><input type="radio" name="question8" value="seizure">seizure</label><br>
+  <label><input type="radio" name="question8" value="attack">attack</label><br>
+  <label><input type="radio" name="question8" value="rapture">rapture</label><br>
+  <label><input type="radio" name="question8" value="turn">turn</label><br>
+  <button type="button" onclick="checkAnswers()">Check Answer</button>
+
+   <p>9. The Turners are looking for a little cabin in the woods where they won’t be <u class="underlined"> accessible </u> to their relatives.</p>
+  <label><input type="radio" name="question9" value="acceptable">acceptable</label><br>
+  <label><input type="radio" name="question9" value="probable">probable</label><br>
+  <label><input type="radio" name="question9" value="reachable">reachable</label><br>
+  <label><input type="radio" name="question9" value="accessory">accessory</label><br>
+  <label><input type="radio" name="question9" value="approachable">approachable</label><br>
+  <button type="button" onclick="checkAnswers()">Check Answer</button>
+
+  <p>10. When Mrs. Bell was the director of the firm, her first <u class="underlined"> accomplishment </u> was to bring about better working conditions. </p>
+  <label><input type="radio" name="question9" value="defeat">defeat</label><br>
+  <label><input type="radio" name="question9" value="achievement">achievement</label><br>
+  <label><input type="radio" name="question9" value="accumulation">accumulation</label><br>
+  <label><input type="radio" name="question9" value="sermon">sermon</label><br>
+  <label><input type="radio" name="question9" value="job">job</label><br>
+  <br>
+  <button type="button" onclick="checkAnswers()">Check Answer</button>
+
+  <hr />
+  <button type="submit" onclick="showResult()">Submit Answers</button>
+
+</form>
+</form>
+</body>
+
+
+<script>
+  function checkAnswers() {
+    const answers = {
+      question1: "give up completely",
+      question2: "deserted",
+      question3: "unexpectedly",
+      question4: "engrossed",
+      question5: "avoidance",
+      question6: "plentiful",
+      question7: "quickening",
+      question8: "entrance",
+      question9: "approachable",
+      question10: "achievement"
+    };
+
+    const inputs = document.querySelectorAll('input[type="radio"]:checked');
+
+    inputs.forEach(input => {
+      const parentLabel = input.parentElement;
+      if (input.value === answers[input.name]) {
+        parentLabel.classList.add('correct');
+        parentLabel.classList.remove('incorrect');
+      } else {
+        parentLabel.classList.add('incorrect');
+        parentLabel.classList.remove('correct');
+      }
+    });
+  }
+  function showResult() {
+      // проверить ответы перед отображением сообщения
+      checkAnswers();
+
+      // отобразить сообщение
+      alert("Успокойся, ты никому не нужен со своими ответами");}
+  </script>
+
+
+</body>
+</html>
